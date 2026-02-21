@@ -1,0 +1,55 @@
+# =========================
+# Build folders
+# =========================
+bin/
+obj/
+out/
+
+# =========================
+# Visual Studio files
+# =========================
+.vs/
+.vscode/
+*.user
+*.suo
+*.cache
+*.dll
+*.exe
+*.pdb
+
+# =========================
+# Logs
+# =========================
+*.log
+
+# =========================
+# OS files
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# NuGet packages
+# =========================
+packages/
+*.nupkg
+
+# =========================
+# Entity Framework / Database
+# =========================
+*.mdf
+*.ldf
+
+# =========================
+# App secrets
+# =========================
+appsettings.Development.json
+appsettings.Local.json
+secrets.json
+
+# =========================
+# Rider / Resharper
+# =========================
+.idea/
+_ReSharper*/
+*.DotSettings.user

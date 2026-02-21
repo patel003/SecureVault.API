@@ -1,0 +1,10 @@
+<Solution>
+  <Folder Name="/Solution Items/">
+    <File Path=".gitignore" />
+  </Folder>
+  <Project Path="SecureVault.API/SecureVault.API.csproj" />
+  <Project Path="SecureVault.Application/SecureVault.Application.csproj" />
+  <Project Path="SecureVault.Domain/SecureVault.Domain.csproj" />
+  <Project Path="SecureVault.Infrastructure/SecureVault.Infrastructure.csproj" />
+  <Project Path="SecureVault.Persistence/SecureVault.Persistence.csproj" />
+</Solution>
