@@ -112,9 +112,34 @@ dotnet ef database update
 
 Run Project
 dotnet run
+---
 
-Swagger
-https://localhost:5001/swagger
+## API Testing (Postman)
+
+All API endpoints were tested using Postman.
+
+### Testing Flow
+
+1. Register a new user
+2. Login to receive JWT token
+3. Copy the token from response
+4. Add token in Authorization header
+
+Authorization: Bearer {token}
+
+### Tested Operations
+
+Auth:
+- Register User
+- Login User
+
+Vault:
+- Get all vault items
+- Add new vault item
+- Update vault item
+- Delete vault item
+
+The project was fully verified through Postman including authentication and protected routes.
 
 
 
